@@ -1,2 +1,2 @@
-# share-actividy
+# share-activity
 Game Theory
