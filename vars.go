@@ -1,11 +1,11 @@
 package main
 
-var home =  `
+var home = `
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>Insert title here</title>
+<title>博弈论小游戏</title>
 </head>
 <body>
 <form action="/add" method="post">
@@ -25,6 +25,7 @@ var home =  `
 var tableHeader = `
 <html>
 <body>
+<center>
 <table border="1">
 <tr>
 <th>序号</th>
@@ -36,6 +37,7 @@ var tableHeader = `
 
 var tableTail = `
 </table>
+</center>
 </body>
 </html>
 `

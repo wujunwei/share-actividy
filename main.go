@@ -85,5 +85,8 @@ func main() {
 		votes = map[string]item{}
 		_, _ = writer.Write([]byte("ok"))
 	})
-	_ = http.ListenAndServe(addr, mux)
+	err := http.ListenAndServe(addr, mux)
+	if err != nil {
+		fmt.Println(err)
+	}
 }
